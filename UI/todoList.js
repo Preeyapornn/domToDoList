@@ -5,12 +5,16 @@ function todoUserInterface() {
     const div = document.createElement('div')
     div.className = 'todoItem'
     div.id = newId
+    
     const p = document.createElement('p')
     p.textContent = newDescription
+    
     const button1 = document.createElement('button')
     button1.textContent = 'Not Done'
+    
     const button2 = document.createElement('button')
     button2.textContent = 'remove'
+    
     div.appendChild(p)
     div.appendChild(button1)
     div.appendChild(button2)
